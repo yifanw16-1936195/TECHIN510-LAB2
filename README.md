@@ -2,9 +2,11 @@
 
 ## Author: Yifan Wang
 
-## Hosted Portfolio Link
+## Hosted Link
 
-https://techin510-lab1-yifanwang.streamlit.app/
+Data Visualization: https://techin510-lab2-app1.streamlit.app/
+
+world Clock: https://techin510-lab2-app2.streamlit.app/
 
 ## Overview
 
