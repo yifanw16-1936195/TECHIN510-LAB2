@@ -3,6 +3,7 @@ import pandas as pd
 import seaborn as sns
 from datetime import datetime
 import pytz
+import matplotlib.pyplot as plt
 
 # Set up page
 st.set_page_config(page_title="Penguins Explorer", layout="wide")
