@@ -39,7 +39,7 @@ island = st.sidebar.multiselect('Select island:', options=df['island'].unique(),
 year_range = st.sidebar.slider("Select the year of observation:", int(df['year'].min()), int(df['year'].max()), (int(df['year'].min()), int(df['year'].max())))
 
 # Filter data based on sidebar choices
-filtered_data = df[(df['species'].isin(species)) & (df['island'].isin(island))]
+filtered_data = df[(df['species'].isin(species)) & (df['island'].isin(island)) & (df['year'].between(year_range[0], year_range[1]))]
 
 # Show data
 st.dataframe(filtered_data)
