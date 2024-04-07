@@ -11,7 +11,7 @@ st.set_page_config(page_title="Penguins Explorer", layout="wide")
 # Title and introduction
 st.title("🐧 Penguins Explorer")
 st.markdown("""
-Explore the fascinating world of Palmer Archipelago's Penguins. The dataset contains observations of three penguin species and includes several measurements such as bill length, bill depth, flipper length, body mass, and more. This data is ideal for exploratory data analysis and visualization.
+Explore the fascinating world of Palmer Archipelago's Penguins. The dataset contains observations of three penguin species and includes several measurements such as bill length, bill depth, flipper length, body mass, and more.
 """)
 
 # Load data
